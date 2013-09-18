@@ -1,0 +1,20 @@
+name: comzecham
+main: com.comze_instancelabs.chamaeleon.Main
+version: 1.0
+author: ped4
+commands:
+   cham:
+      description: Be a chamaeleon!
+      usage: /cham
+      permission: comzecham.cham
+      permission-message: You don't have <permission>
+   unchamall:
+      description: Disable chamaeleon for all players.
+      usage: /unchamall
+      permission: comzecham.unchamall
+      permission-message: You don't have <permission>
+   dplayer:
+      description: Disguise someone!
+      usage: /dplayer [player] [disguise]
+      permission: comzecham.unchamall
+      permission-message: You don't have <permission>
